@@ -1,0 +1,82 @@
+body {
+    font-size: 1em;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    background-color: #FFB529;
+}
+
+header {
+    font-family: 'Leckerli One', Arial;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #000;
+    background-image: linear-gradient(bottom, rgb(51,122,255) 42%, rgb(10,87,240) 71%);
+    background-image: -o-linear-gradient(bottom, rgb(51,122,255) 42%, rgb(10,87,240) 71%);
+    background-image: -moz-linear-gradient(bottom, rgb(51,122,255) 42%, rgb(10,87,240) 71%);
+    background-image: -webkit-linear-gradient(bottom, rgb(51,122,255) 42%, rgb(10,87,240) 71%);
+    background-image: -ms-linear-gradient(bottom, rgb(51,122,255) 42%, rgb(10,87,240) 71%);
+
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.42, rgb(51,122,255)),
+    color-stop(0.71, rgb(10,87,240))
+    );
+    padding: 25px 10px;
+    color: #fff;
+    clear: both;
+    box-shadow: 0px 5px 5px #fff;
+}
+
+svg {
+    border: 3px solid #000;
+    background-color: #fff;
+}
+
+svg image{
+    cursor: pointer;
+}
+
+svg path:hover{
+    stroke: #f00;
+    cursor: pointer;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.services {
+    list-style: none;
+    clear: both;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.services li {
+    border: 3px solid #F66F00;
+    width: 260px;
+    margin: 10px 12px;
+    padding: 15px;
+    background-color: #F6A100;
+    border-radius: 20px;
+    color: #fff;	    
+    float: left;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+}
+.services li:hover {
+    color: #fff;	    
+    background-color: #0954E7;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 2px #2F71F3;
+}
+footer {
+    clear: both;
+    border: 1px solid #333;
+}
+
+
